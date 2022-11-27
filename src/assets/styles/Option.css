@@ -1,0 +1,29 @@
+.option, .correct, .wrong {
+    padding: 9px 0;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    width: 20rem;
+    border: none;
+    cursor: pointer;
+}
+
+.option {
+    background-color: var(--color-option);
+    color: var(--color-black);
+}
+
+.option:hover {
+    background-color: var(--color-hover);
+    color: var(--color-gray);
+}
+
+.correct {
+    background-color: var(--color-correct);
+    color: var(--color-gray);
+}
+
+.wrong {
+    background-color: var(--color-wrong);
+    color: var(--color-gray);
+}

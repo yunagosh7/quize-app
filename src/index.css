@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Sora:wght@400;500&display=swap");
+
+:root {
+  font-size: 1rem;
+  line-height: 1.5rem;
+
+  --color-bg: #213547;
+  --color-gray: #efefef;
+  --color-black: #303030;
+  --color-hover: #fc8e2d;
+  --color-correct: #14c926;
+  --color-wrong: #ff4444;
+  --color-option: #fbfbfb;
+
+  font-family: "Roboto", sans-serif;
+  font-family: "Sora", sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-gray);
+}
+
+@media screen and (max-width: 960px) {
+  .game-title {
+    font-size: 2rem;
+  }
+}

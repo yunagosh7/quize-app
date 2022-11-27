@@ -1,0 +1,17 @@
+.question {
+    width: 20rem;
+    height: 15rem;
+    background-color: var(--color-gray);
+    color: var(--color-black) ;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:768px) {
+    .question {
+        width: 70%;
+        height: 50%;
+    }
+}
