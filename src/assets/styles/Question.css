@@ -3,7 +3,8 @@
     height: 15rem;
     background-color: var(--color-gray);
     color: var(--color-black) ;
-    padding: 1rem;
+    padding: 3rem 0;
+    text-align: center;
     box-sizing: border-box;
     border-radius: 15px;
     font-size: 1.2rem;
